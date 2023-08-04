@@ -1,0 +1,64 @@
+name: app_demo
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.11.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_localizations:
+    sdk: flutter
+  retrofit: ^4.0.1
+  shimmer: ^3.0.0
+  logger:
+  intl:
+  freezed_annotation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #  test: ^1.24.3
+  flutter_lints: ^2.0.2
+  dart_code_metrics: ^5.7.5
+  bloc_test: ^9.1.4
+  mocktail: ^1.0.0
+  # flutter pub run flutter_launcher_icons:main
+  flutter_launcher_icons:
+    git:
+      url: https://github.com/carloshpb/flutter_launcher_icons
+      branch: upgrade-image-4.0.10
+  retrofit_generator:
+  freezed: ^2.4.1
+  build_runner: ^2.4.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  fonts:
+    - family: BrutalType
+      fonts:
+        - asset: assets/fonts/BrutalType/BrutalType.ttf
+        - asset: assets/fonts/BrutalType/BrutalTypeThin.ttf
+          weight: 100
+        - asset: assets/fonts/BrutalType/BrutalTypeExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/BrutalType/BrutalTypeLight.ttf
+          weight: 300
+        - asset: assets/fonts/BrutalType/BrutalTypeRegular.ttf
+          weight: 400
+        - asset: assets/fonts/BrutalType/BrutalTypeMedium.ttf
+          weight: 500
+        - asset: assets/fonts/BrutalType/BrutalTypeBold.ttf
+          weight: 600
+        - asset: assets/fonts/BrutalType/BrutalTypeBold.ttf
+          weight: 700
+        - asset: assets/fonts/BrutalType/BrutalTypeExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/BrutalType/BrutalTypeBlack.ttf
+          weight: 900
+
